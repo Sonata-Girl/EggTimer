@@ -10,9 +10,10 @@
 		678C0ED42984657B00031127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C0ED32984657B00031127 /* AppDelegate.swift */; };
 		678C0ED62984657B00031127 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C0ED52984657B00031127 /* SceneDelegate.swift */; };
 		678C0ED82984657B00031127 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C0ED72984657B00031127 /* ViewController.swift */; };
-		678C0EDB2984657B00031127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678C0ED92984657B00031127 /* Main.storyboard */; };
 		678C0EDD2984657B00031127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678C0EDC2984657B00031127 /* Assets.xcassets */; };
 		678C0EE02984657B00031127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678C0EDE2984657B00031127 /* LaunchScreen.storyboard */; };
+		678C0EE8298466BC00031127 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 678C0EE7298466BC00031127 /* README.md */; };
+		678C0EEA298466C500031127 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 678C0EE9298466C500031127 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		678C0ED32984657B00031127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		678C0ED52984657B00031127 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		678C0ED72984657B00031127 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		678C0EDA2984657B00031127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		678C0EDC2984657B00031127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		678C0EDF2984657B00031127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		678C0EE12984657B00031127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678C0EE7298466BC00031127 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		678C0EE9298466C500031127 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		678C0EC72984657B00031127 = {
 			isa = PBXGroup;
 			children = (
+				678C0EE7298466BC00031127 /* README.md */,
 				678C0ED22984657B00031127 /* EggTimer */,
 				678C0ED12984657B00031127 /* Products */,
 			);
@@ -59,8 +62,8 @@
 				678C0ED32984657B00031127 /* AppDelegate.swift */,
 				678C0ED52984657B00031127 /* SceneDelegate.swift */,
 				678C0ED72984657B00031127 /* ViewController.swift */,
-				678C0ED92984657B00031127 /* Main.storyboard */,
 				678C0EDC2984657B00031127 /* Assets.xcassets */,
+				678C0EE9298466C500031127 /* alarm_sound.mp3 */,
 				678C0EDE2984657B00031127 /* LaunchScreen.storyboard */,
 				678C0EE12984657B00031127 /* Info.plist */,
 			);
@@ -125,9 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678C0EE8298466BC00031127 /* README.md in Resources */,
 				678C0EE02984657B00031127 /* LaunchScreen.storyboard in Resources */,
+				678C0EEA298466C500031127 /* alarm_sound.mp3 in Resources */,
 				678C0EDD2984657B00031127 /* Assets.xcassets in Resources */,
-				678C0EDB2984657B00031127 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		678C0ED92984657B00031127 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				678C0EDA2984657B00031127 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		678C0EDE2984657B00031127 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +288,6 @@
 				INFOPLIST_FILE = EggTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +315,6 @@
 				INFOPLIST_FILE = EggTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
